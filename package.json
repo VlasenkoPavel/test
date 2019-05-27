@@ -1,0 +1,25 @@
+{
+  "name": "@chaika/test",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "./node_modules/.bin/tslint --force 'src/**/*.ts' && ./node_modules/.bin/tsc --project tsconfig.json",
+    "build-dev": "./node_modules/.bin/tsc --watch --project tsconfig.json",
+    "tslint": "./node_modules/.bin/tslint 'src/**/*.ts'"
+  },
+  "dependencies": {
+    "lodash": "4.17.11",
+    "reflect-metadata": "0.1.12"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "@types/lodash": "4.14.132",
+    "@types/node": "8.0.46",
+    "jest": "^24.8.0",
+    "tslint": "5.12.0",
+    "tslint-config-airbnb": "5.11.1",
+    "typescript": "3.3.3"
+  }
+}
