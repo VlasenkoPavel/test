@@ -10,7 +10,7 @@
     "tslint": "./node_modules/.bin/tslint 'src/**/*.ts'"
   },
   "dependencies": {
-    "lodash": "4.17.11",
+    "lodash": "4.17.19",
     "reflect-metadata": "0.1.12"
   },
   "devDependencies": {
